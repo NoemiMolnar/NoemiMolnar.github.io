@@ -98,8 +98,14 @@ a:hover{
 button{
 		margin: 0px 25px;
 		color:	rgb(40, 90, 122);
+		background-color: rgba(255, 255, 255, 0);
+		border-radius: 8px;
+		border: 	rgb(40, 90, 122);
 }
 
 button:hover{
 	color: rgb(65, 157, 216);
+	border: rgb(65, 157, 216); 
+	background-color: rgba(255, 255, 255, 0.192);
+
 }
