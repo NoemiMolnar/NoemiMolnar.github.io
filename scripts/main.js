@@ -3,10 +3,7 @@ var myHeading = document.querySelector("h2");
 
 
 function myFunction() {
-  var myName = prompt("Please, enter your name!");
-  if(myName){
-  localStorage.setItem('name', myName);
-  myHeading.textContent = 'Welcome to my page, ' + myName+"!";}
+  document.getElementById('portfolio').scrollIntoView();
 };
 
 if(localStorage.getItem('name')){
@@ -17,3 +14,5 @@ if(localStorage.getItem('name')){
 myButton.onclick = function() {
   myFunction();
 };
+
+
