@@ -1,9 +1,3 @@
-myImage.onmouseout = function() {
-  var divInPos = document.querySelector('#guide');
-  pos.removeChild(divInPos);
-
-}
-
 var myButton = document.querySelector('button');
 var myHeading = document.querySelector("h2");
 
