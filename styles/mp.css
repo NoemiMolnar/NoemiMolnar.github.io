@@ -1,0 +1,108 @@
+
+html{
+		background-color: #e8def7;
+		background-image: url('../images/bg3.jpg');
+		background-size: cover;
+
+}
+
+body{
+	font-size: 130%;
+	font-family: 'Abel', sans-serif;
+	padding: 0;
+	text-shadow: 3px 3px 1px rgb(106, 114, 119, 0.5);
+}
+
+.header{
+	background-color: rgb(234, 237, 239, 0.5);
+	height: 80px;
+	width: 100%;
+	margin: 20px 0;
+}
+
+.iconholder{
+	display: inline-block;
+	float: right;
+	color:	rgb(40, 90, 122);
+	padding: 25px;
+
+}
+
+.iconholder:hover{
+	color: rgb(65, 157, 216);
+}
+
+.fa{
+	padding: 0 15px;
+}
+
+h1{
+	color: black;
+	font-size: 200%;
+	text-align: left;
+	padding: 10px 200px;
+	margin: 0;
+	display: inline-block;
+}
+
+.pos{
+	position: absolute;
+	top: 0;
+	width: 200px;
+}
+
+img{
+	display: inline-block;
+	float: left;
+  height: 180px;
+	display: block;
+	margin: 0px 15px;
+
+	border: 1px solid rgb(40, 90, 122);
+	border-radius: 50%;
+
+	box-shadow:3px 3px 1px rgb(106, 114, 119, 0.5);
+}
+
+img:hover{
+	border: 1px solid	rgb(65, 157, 216);
+}
+
+h2{
+	font-size: 250%;
+	text-align: center;
+	padding: 50px 50px 0;
+	margin: 0;
+	display: block;
+	background-color: rgb(234, 237, 239, 0.5);
+}
+
+
+p {
+	font-size: 150%;
+	display: block;
+	background-color: rgb(234, 237, 239, 0.5);
+	padding: 50px;
+}
+
+.para{
+		width: 70%;
+		margin: auto;
+}
+
+a{
+color:	rgb(40, 90, 122);
+}
+
+a:hover{
+	color: rgb(65, 157, 216);
+}
+
+button{
+		margin: 0px 25px;
+		color:	rgb(40, 90, 122);
+}
+
+button:hover{
+	color: rgb(65, 157, 216);
+}
